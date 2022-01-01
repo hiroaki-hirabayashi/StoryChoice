@@ -1,4 +1,4 @@
 # StoryChoice
-- 2択の選択で物語が進んでいくアプリ
+- 選択肢で物語が進んでいくアプリ
 
-<img src="https://user-images.githubusercontent.com/55319251/147844789-5331e21d-f273-4f60-abf6-8d96e22092f3.png" width="300">
+<img src="https://user-images.githubusercontent.com/55319251/147845890-a52446bb-b334-4afb-a516-ae34e0382530.png" width="300">
