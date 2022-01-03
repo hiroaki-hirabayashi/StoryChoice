@@ -17,6 +17,8 @@
 		F47C40062780289A00CDD87C /* StoryChoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C40052780289A00CDD87C /* StoryChoiceTests.swift */; };
 		F47C40102780289A00CDD87C /* StoryChoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C400F2780289A00CDD87C /* StoryChoiceUITests.swift */; };
 		F47C40122780289A00CDD87C /* StoryChoiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C40112780289A00CDD87C /* StoryChoiceUITestsLaunchTests.swift */; };
+		F47C402027802DF300CDD87C /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C401F27802DF300CDD87C /* Story.swift */; };
+		F47C402227802E0E00CDD87C /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C402127802E0E00CDD87C /* StoryBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F47C400B2780289A00CDD87C /* StoryChoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryChoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47C400F2780289A00CDD87C /* StoryChoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryChoiceUITests.swift; sourceTree = "<group>"; };
 		F47C40112780289A00CDD87C /* StoryChoiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryChoiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F47C401F27802DF300CDD87C /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		F47C402127802E0E00CDD87C /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		F47C3FEA2780289800CDD87C /* StoryChoice */ = {
 			isa = PBXGroup;
 			children = (
+				F47C401E27802DE100CDD87C /* Model */,
 				F47C3FEB2780289800CDD87C /* AppDelegate.swift */,
 				F47C3FED2780289800CDD87C /* SceneDelegate.swift */,
 				F47C3FEF2780289800CDD87C /* ViewController.swift */,
@@ -128,6 +133,15 @@
 				F47C40112780289A00CDD87C /* StoryChoiceUITestsLaunchTests.swift */,
 			);
 			path = StoryChoiceUITests;
+			sourceTree = "<group>";
+		};
+		F47C401E27802DE100CDD87C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F47C401F27802DF300CDD87C /* Story.swift */,
+				F47C402127802E0E00CDD87C /* StoryBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47C402227802E0E00CDD87C /* StoryBrain.swift in Sources */,
 				F47C3FF62780289800CDD87C /* StoryChoice.xcdatamodeld in Sources */,
 				F47C3FF02780289800CDD87C /* ViewController.swift in Sources */,
 				F47C3FEC2780289800CDD87C /* AppDelegate.swift in Sources */,
 				F47C3FEE2780289800CDD87C /* SceneDelegate.swift in Sources */,
+				F47C402027802DF300CDD87C /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
